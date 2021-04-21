@@ -1,16 +1,31 @@
-# nlw5
+# ❓ DevQuiz
 
-A new Flutter project.
+A mobile application being built with NLW5 (an event from Rockeatseat - https://app.rocketseat.com.br/). This application goals to build a quiz about programming area and written with Flutter.
 
-## Getting Started
+## ⚠️ Requirements
 
-This project is a starting point for a Flutter application.
+You must have installed Flutter and Dart in your machine. For that, see the installation guide at: https://flutter.dev/docs/get-started/install
 
-A few resources to get you started if this is your first Flutter project:
+## 📱 Current state
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+This app is still being built, so its current snapshot is as the images below:
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- Splash page:
+<!-- <img src="https://github.com/FranklysG/dev_quiz_nlw5/blob/main/assets/readme/splash-page.jpg" height="400px"> -->
+
+
+- Home page:
+<!-- <img src="https://github.com/FranklysG/dev_quiz_nlw5/blob/main/assets/readme/home-page.jpg" height="400px"> -->
+
+
+- Challenge page:
+<!-- <img src="https://github.com/FranklysG/dev_quiz_nlw5/blob/main/assets/readme/challenge-page.jpg" height="400px"> -->
+
+## 🎨 Design
+
+The design was created by Rockeatset and can be found at https://www.figma.com/file/R9It1jsp9U1qDJc7tUAfUW/DevQuiz-Copy?node-id=0%3A1
+
+## 📌 Find me!
+<!-- - Linkedin: https://www.linkedin.com/in/FranklysG19/ -->
+- Instagram: https://www.instagram.com/franklysg/
+- Github: https://github.com/FranklysG
