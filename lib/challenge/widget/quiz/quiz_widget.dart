@@ -18,17 +18,16 @@ class QuizWidget extends StatelessWidget {
           SizedBox(
             height: 24,
           ),
+          AwnserWidget(title: "Kit de desenvolvimento de interface de usuário"),
           AwnserWidget(
               isRight: true,
               isSelected: true,
               title:
-                  "Questão aqui ta de buenas, Questão aqui ta de buenas,  Questão aqui ta de buenas"),
+                  "Possibilita a criação de aplicativos compilados nativamente"),
+          AwnserWidget(title: "Acho que é uma marca de café do Himalaia"),
           AwnserWidget(
-              isRight: false,
-              isSelected: true,
-              title: "Questão aqui ta de buenas"),
-          AwnserWidget(title: "Questão aqui ta de buenas"),
-          AwnserWidget(title: "Questão aqui ta de buenas"),
+              title:
+                  "Possibilita a criação de desktops que são muito incríveis"),
         ],
       ),
     );
