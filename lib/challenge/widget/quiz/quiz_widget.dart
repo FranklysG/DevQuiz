@@ -1,33 +1,58 @@
-import 'package:DevQuiz/challenge/widget/awnser/awnser_widget.dart';
-import 'package:DevQuiz/core/app_text_styles.dart';
 import 'package:flutter/material.dart';
 
-class QuizWidget extends StatelessWidget {
-  final String title;
-  const QuizWidget({Key? key, required this.title}) : super(key: key);
+import 'package:DevQuiz/challenge/widget/awnser/awnser_widget.dart';
+import 'package:DevQuiz/core/app_text_styles.dart';
+import 'package:DevQuiz/shared/models/awnser_model.dart';
+import 'package:DevQuiz/shared/models/question_model.dart';
+
+class QuizWidget extends StatefulWidget {
+  final QuestionModel question;
+  final VoidCallback onChange;
+
+  const QuizWidget({
+    Key? key,
+    required this.question,
+    required this.onChange,
+  }) : super(key: key);
+
+  @override
+  _QuizWidgetState createState() => _QuizWidgetState();
+}
+
+class _QuizWidgetState extends State<QuizWidget> {
+  int indexSelected = -1;
+
+  AwnserModel awnser(int index) => widget.question.awnsers[index];
 
   @override
   Widget build(BuildContext context) {
     return Container(
       child: Column(
+        mainAxisAlignment: MainAxisAlignment.start,
+        crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          Text(
-            title,
-            style: AppTextStyles.heading,
+          Padding(
+            padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 16),
+            child: Text(
+              widget.question.title,
+              style: AppTextStyles.heading,
+            ),
           ),
           SizedBox(
             height: 24,
           ),
-          AwnserWidget(title: "Kit de desenvolvimento de interface de usuário"),
-          AwnserWidget(
-              isRight: true,
-              isSelected: true,
-              title:
-                  "Possibilita a criação de aplicativos compilados nativamente"),
-          AwnserWidget(title: "Acho que é uma marca de café do Himalaia"),
-          AwnserWidget(
-              title:
-                  "Possibilita a criação de desktops que são muito incríveis"),
+          for (var i = 0; i < widget.question.awnsers.length; i++)
+            AwnserWidget(
+              awnser: awnser(i),
+              disabled: indexSelected != -1,
+              isSelected: indexSelected == i,
+              onTap: () {
+                widget.onChange();
+                indexSelected = i;
+                setState(() {});
+                Future.delayed(Duration(seconds: 1));
+              },
+            ),
         ],
       ),
     );

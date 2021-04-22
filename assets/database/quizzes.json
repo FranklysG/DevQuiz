@@ -14,18 +14,27 @@
                     {"title": "Ótimo acertando tudo de primeira","isRight": true},
                     {"title": "Incrivel, irei recomendar"}
                 ]
+            },
+            {
+                "title": "Qual sua opnião sobre nosso curso",
+                "awnsers": [
+                    {"title": "Bom, recomendo"},
+                    {"title": "O Melhor até agora"},
+                    {"title": "Professor explica muito rapido","isRight": true},
+                    {"title": "Incrivel, aprendi bastante"}
+                ]
             }
         ]
     },
     {
         "title": "NLW 5 Comands line em flutter",
         "imagen": "assets/images/data.png",
-        "level": "Medio",
+        "level": "Fácil",
         "questionAnswered": 0,
         "questions": 
         [
             {
-                "title": "Você reconhece esse comando dart --migrate, para que ele é usado",
+                "title": "Você reconhece esse comando 'dart --migrate', para que ele é usado",
                 "awnsers": [
                     {"title": "Para ativar nullSafe no projeto","isRight": true},
                     {"title": "Migrar para o dart mais atual"},

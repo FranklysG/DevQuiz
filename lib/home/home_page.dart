@@ -1,4 +1,5 @@
 // import 'package:DevQuiz/challenge/widget/quiz/quiz_widget.dart';
+import 'package:DevQuiz/challenge/challenge_page.dart';
 import 'package:DevQuiz/core/app_images.dart';
 import 'package:DevQuiz/core/core.dart';
 import 'package:DevQuiz/home/home_controller.dart';
@@ -21,8 +22,7 @@ class _HomePageState extends State<HomePage> {
   @override
   void initState() {
     super.initState();
-    controller.getUser();
-    controller.getQuizzes();
+    controller.getFetchData();
     controller.stateNotifier.addListener(() {
       setState(() {});
     });
@@ -72,6 +72,14 @@ class _HomePageState extends State<HomePage> {
                           completed:
                               "${e.questionAnswered} de ${e.questions.length}",
                           progress: e.questionAnswered / e.questions.length,
+                          onTap: () {
+                            Navigator.push(
+                                context,
+                                MaterialPageRoute(
+                                    builder: (context) => ChallengePage(
+                                          questions: e.questions,
+                                        )));
+                          },
                         ),
                       )
                       .toList(),
