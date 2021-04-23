@@ -1,4 +1,4 @@
-# ❓ DevQuiz
+# ❓ DevQuiz 
 
 A mobile application being built with NLW5 (an event from Rockeatseat - https://app.rocketseat.com.br/). This application goals to build a quiz about programming area and written with Flutter.
 
