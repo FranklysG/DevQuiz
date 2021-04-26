@@ -1,45 +1,272 @@
 [
     {
-        "title": "NLW 5 Trilha de flutter",
+        "title": "Trilha de flutter",
         "imagen": "assets/images/blocks.png",
         "level": "Fácil",
         "questionAnswered": 1,
-        "questions": 
-        [
+        "questions": [
             {
                 "title": "O que você esta achando do Flutter",
                 "awnsers": [
-                    {"title": "Sem problemas até aqui"},
-                    {"title": "Muito bom mas com dificuldade"},
-                    {"title": "Ótimo acertando tudo de primeira","isRight": true},
-                    {"title": "Incrivel, irei recomendar"}
+                    {
+                        "title": "Sem problemas até aqui"
+                    },
+                    {
+                        "title": "Muito bom mas com dificuldade"
+                    },
+                    {
+                        "title": "Ótimo acertando tudo de primeira",
+                        "isRight": true
+                    },
+                    {
+                        "title": "Incrivel, irei recomendar"
+                    }
                 ]
             },
             {
                 "title": "Qual sua opnião sobre nosso curso",
                 "awnsers": [
-                    {"title": "Bom, recomendo"},
-                    {"title": "O Melhor até agora"},
-                    {"title": "Professor explica muito rapido","isRight": true},
-                    {"title": "Incrivel, aprendi bastante"}
+                    {
+                        "title": "Bom, recomendo"
+                    },
+                    {
+                        "title": "O Melhor até agora"
+                    },
+                    {
+                        "title": "Professor explica muito rapido",
+                        "isRight": true
+                    },
+                    {
+                        "title": "Incrivel, aprendi bastante"
+                    }
                 ]
             }
         ]
     },
     {
-        "title": "NLW 5 Comands line em flutter",
+        "title": "Comands line em flutter",
         "imagen": "assets/images/data.png",
         "level": "Fácil",
         "questionAnswered": 0,
-        "questions": 
-        [
+        "questions": [
             {
                 "title": "Você reconhece esse comando 'dart --migrate', para que ele é usado",
                 "awnsers": [
-                    {"title": "Para ativar nullSafe no projeto","isRight": true},
-                    {"title": "Migrar para o dart mais atual"},
-                    {"title": "Para limpar os caches do dart"},
-                    {"title": "Fazer varredura de codigo morto no projeto"}
+                    {
+                        "title": "Para ativar nullSafe no projeto",
+                        "isRight": true
+                    },
+                    {
+                        "title": "Migrar para o dart mais atual"
+                    },
+                    {
+                        "title": "Para limpar os caches do dart"
+                    },
+                    {
+                        "title": "Fazer varredura de codigo morto no projeto"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "Dart",
+        "imagen": "assets/images/hierarchy.png",
+        "level": "Fácil",
+        "questionAnswered": 0,
+        "questions": [
+            {
+                "title": "Está gostando do Flutter?",
+                "awnsers": [
+                    {
+                        "title": "Sim, muito",
+                        "isRight": true
+                    },
+                    {
+                        "title": "Sim, porém com algumas ressalvas"
+                    },
+                    {
+                        "title": "Mais ou menos"
+                    },
+                    {
+                        "title": "Não, prefiro React Native"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "React Native",
+        "imagen": "assets/images/laptop.png",
+        "level": "Fácil",
+        "questionAnswered": 0,
+        "questions": [
+            {
+                "title": "Está gostando do Flutter?",
+                "awnsers": [
+                    {
+                        "title": "Sim, muito",
+                        "isRight": true
+                    },
+                    {
+                        "title": "Sim, porém com algumas ressalvas"
+                    },
+                    {
+                        "title": "Mais ou menos"
+                    },
+                    {
+                        "title": "Não, prefiro React Native"
+                    }
+                ]
+            },
+            {
+                "title": "Está gostando da NLW?",
+                "awnsers": [
+                    {
+                        "title": "Sim, muito",
+                        "isRight": true
+                    },
+                    {
+                        "title": "Sim, porém com algumas ressalvas"
+                    },
+                    {
+                        "title": "Mais ou menos"
+                    },
+                    {
+                        "title": "Não, não consegui acompanhar"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "JavaScript",
+        "imagen": "assets/images/blocks.png",
+        "level": "Fácil",
+        "questionAnswered": 0,
+        "questions": [
+            {
+                "title": "Está gostando do Flutter?",
+                "awnsers": [
+                    {
+                        "title": "Sim, muito",
+                        "isRight": true
+                    },
+                    {
+                        "title": "Sim, porém com algumas ressalvas"
+                    },
+                    {
+                        "title": "Mais ou menos"
+                    },
+                    {
+                        "title": "Não, prefiro React Native"
+                    }
+                ]
+            },
+            {
+                "title": "Está gostando da NLW?",
+                "awnsers": [
+                    {
+                        "title": "Sim, muito",
+                        "isRight": true
+                    },
+                    {
+                        "title": "Sim, porém com algumas ressalvas"
+                    },
+                    {
+                        "title": "Mais ou menos"
+                    },
+                    {
+                        "title": "Não, não consegui acompanhar"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "Ionic",
+        "imagen": "assets/images/data.png",
+        "level": "Fácil",
+        "questionAnswered": 0,
+        "questions": [
+            {
+                "title": "Está gostando do Flutter?",
+                "awnsers": [
+                    {
+                        "title": "Sim, muito",
+                        "isRight": true
+                    },
+                    {
+                        "title": "Sim, porém com algumas ressalvas"
+                    },
+                    {
+                        "title": "Mais ou menos"
+                    },
+                    {
+                        "title": "Não, prefiro React Native"
+                    }
+                ]
+            },
+            {
+                "title": "Está gostando da NLW?",
+                "awnsers": [
+                    {
+                        "title": "Sim, muito",
+                        "isRight": true
+                    },
+                    {
+                        "title": "Sim, porém com algumas ressalvas"
+                    },
+                    {
+                        "title": "Mais ou menos"
+                    },
+                    {
+                        "title": "Não, não consegui acompanhar"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "Kotlin",
+        "imagen": "assets/images/laptop.png",
+        "level": "Fácil",
+        "questionAnswered": 0,
+        "questions": [
+            {
+                "title": "Está gostando do Flutter?",
+                "awnsers": [
+                    {
+                        "title": "Sim, muito",
+                        "isRight": true
+                    },
+                    {
+                        "title": "Sim, porém com algumas ressalvas"
+                    },
+                    {
+                        "title": "Mais ou menos"
+                    },
+                    {
+                        "title": "Não, prefiro React Native"
+                    }
+                ]
+            },
+            {
+                "title": "Está gostando da NLW?",
+                "awnsers": [
+                    {
+                        "title": "Sim, muito",
+                        "isRight": true
+                    },
+                    {
+                        "title": "Sim, porém com algumas ressalvas"
+                    },
+                    {
+                        "title": "Mais ou menos"
+                    },
+                    {
+                        "title": "Não, não consegui acompanhar"
+                    }
                 ]
             }
         ]

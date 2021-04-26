@@ -21,6 +21,10 @@ This app is still being built, so its current snapshot is as the images below:
 - Challenge page:
 <img src="https://github.com/FranklysG/nlw5/blob/main/assets/readme/challenge_page.png" height="400px">
 
+
+- Result page:
+<img src="https://github.com/FranklysG/nlw5/blob/main/assets/readme/result_page.png" height="400px">
+
 ## 🎨 Design
 
 The design was created by Rockeatset and can be found at https://www.figma.com/file/R9It1jsp9U1qDJc7tUAfUW/DevQuiz-Copy?node-id=0%3A1
