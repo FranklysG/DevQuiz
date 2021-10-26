@@ -10,20 +10,22 @@ You must have installed Flutter and Dart in your machine. For that, see the inst
 
 This app is still being built, so its current snapshot is as the images below:
 
-- Splash page:
-<img src="https://github.com/FranklysG/nlw5/blob/main/assets/readme/splash_page.png" height="400px">
-
-
-- Home page:
-<img src="https://github.com/FranklysG/nlw5/blob/main/assets/readme/home_page.png" height="400px">
-
-
-- Challenge page:
-<img src="https://github.com/FranklysG/nlw5/blob/main/assets/readme/challenge_page.png" height="400px">
-
-
-- Result page:
-<img src="https://github.com/FranklysG/nlw5/blob/main/assets/readme/result_page.png" height="400px">
+<p align="left">
+<code>
+<img src="https://github.com/FranklysG/nlw5/blob/main/assets/readme/splash_page.png" height="490px">
+</code>
+<code>
+<img src="https://github.com/FranklysG/nlw5/blob/main/assets/readme/home_page.png" height="490px">
+</code>
+<code>
+<img src="https://github.com/FranklysG/nlw5/blob/main/assets/readme/challenge_page.png" height="490px">
+</code>
+</p>
+<p align="left">
+<code>
+<img src="https://github.com/FranklysG/nlw5/blob/main/assets/readme/result_page.png" height="490px">
+</code>
+</p>
 
 ## 🎨 Design
 
