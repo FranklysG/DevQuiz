@@ -12,18 +12,18 @@ This app is still being built, so its current snapshot is as the images below:
 
 <p align="left">
 <code>
-<img src="https://github.com/FranklysG/nlw5/blob/main/assets/readme/splash_page.png" height="560px">
+<img src="https://github.com/FranklysG/nlw5/blob/main/assets/readme/splash_page.png" height="550px">
 </code>
 <code>
-<img src="https://github.com/FranklysG/nlw5/blob/main/assets/readme/home_page.png" height="560px">
+<img src="https://github.com/FranklysG/nlw5/blob/main/assets/readme/home_page.png" height="550px">
 </code>
 <code>
-<img src="https://github.com/FranklysG/nlw5/blob/main/assets/readme/challenge_page.png" height="560px">
+<img src="https://github.com/FranklysG/nlw5/blob/main/assets/readme/challenge_page.png" height="550px">
 </code>
 </p>
 <p align="left">
 <code>
-<img src="https://github.com/FranklysG/nlw5/blob/main/assets/readme/result_page.png" height="560px">
+<img src="https://github.com/FranklysG/nlw5/blob/main/assets/readme/result_page.png" height="550px">
 </code>
 </p>
 
